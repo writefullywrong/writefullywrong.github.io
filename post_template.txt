@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Post Title | Series Title - Chapter #"
+date:   YYYY-MM-DD
+categories: series_title, prompts, shorts, on_writing, off_topic (choose one)
+#series: "Series Title"
+#chapter: 1
+#chapter_title: "Chapter Title"
+#chapter_prev: 2019/08/29/welcome-to-jekyll.html
+#chapter_next: 2019/08/29/welcome-to-jekyll.html
+#prompt: Prompt as Titled On Reddit
+#wp_url: http://www.reddit.com
+---
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultrices, diam a bibendum convallis, nulla dui consectetur tellus, non vulputate mi erat sit amet ex. Vivamus ornare vehicula tortor, ut lacinia diam faucibus eu. In fermentum magna eu quam ultricies ullamcorper. Mauris vel nisi non nisi posuere euismod vestibulum vel dui. Ut commodo lectus eros, in maximus dolor scelerisque sed. Suspendisse volutpat et lacus non egestas. Nullam pharetra euismod nunc. Morbi lobortis euismod sapien, eget vehicula nunc cursus sit amet. Integer sollicitudin pulvinar risus in consectetur.
+

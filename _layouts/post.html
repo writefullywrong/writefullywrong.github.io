@@ -1,5 +1,12 @@
 ---
 layout: default
 ---
-
+{% if page.series != n %}{{ page.series }}{% else %}{{ page.title }}{% endif %}
+{% if page.chapter != n %}<br>Chapter {{ page.chapter}}: {{ page.chapter_title }}{% endif %}
+{% if page.prompt != n %}<br>r/writngprompts prompt: <a href="{{ page.wp_url }}" target="_blank">{{ page.prompt }}</a>{% endif %}
+<br>
+<br>
 {{ content }}
+{% if page.chapter_prev != n or page.chapter_next != n %}<br>{% endif %}
+{% if page.chapter_prev != n %}<a href="/{{ page.categories }}/{{ page.chapter_prev }}"><<</a>{% endif %} {% if page.chapter_next != n %}<a href="/{{ page.categories }}/{{ page.chapter_next }}">>></a>{% endif %}
+
