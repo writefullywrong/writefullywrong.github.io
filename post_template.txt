@@ -2,7 +2,7 @@
 layout: post
 title:  "Post Title | Series Title - Chapter #"
 date:   YYYY-MM-DD
-categories: series_title, prompts, shorts, on_writing, off_topic (choose one)
+categories: series_title, prompts, shorts, on_writing, off_topic, setting (choose one)
 #series: "Series Title"
 #chapter: 1
 #chapter_title: "Chapter Title"
@@ -10,6 +10,9 @@ categories: series_title, prompts, shorts, on_writing, off_topic (choose one)
 #chapter_next: 2019/08/29/welcome-to-jekyll.html
 #prompt: Prompt as Titled On Reddit
 #wp_url: http://www.reddit.com
+#word_count: 482
+#setting: Necropolis (used with series_title, propmpts, or shorts)
+#setting_url: 2020/02/26/setting-necropolis.html
 ---
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultrices, diam a bibendum convallis, nulla dui consectetur tellus, non vulputate mi erat sit amet ex. Vivamus ornare vehicula tortor, ut lacinia diam faucibus eu. In fermentum magna eu quam ultricies ullamcorper. Mauris vel nisi non nisi posuere euismod vestibulum vel dui. Ut commodo lectus eros, in maximus dolor scelerisque sed. Suspendisse volutpat et lacus non egestas. Nullam pharetra euismod nunc. Morbi lobortis euismod sapien, eget vehicula nunc cursus sit amet. Integer sollicitudin pulvinar risus in consectetur.
 

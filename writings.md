@@ -20,7 +20,7 @@ permalink: writings
           <blockquote>Description of story here! </blockquote>
         </div>
       {% endif %}
-</div>
+  </div>
 {% endfor %}
 </div>
 <center><h2>Short Stories and One Shots</h2></center>
@@ -48,6 +48,24 @@ permalink: writings
     {% if category_name == "shorts" %}
     <div id="{{ category_name }}">
       <h2 class="category-title">Other Short Stories</h2>
+      <ul class="category-entry">
+      {% for post in site.categories[category_name] reversed %}
+        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+  </div>
+{% endfor %}
+</div>
+<center><h2>Meta</h2></center>
+<div id="setting">
+{% for category in site.categories %}
+  <div id="category">
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    {% if category_name == "setting" %}
+    <div id="{{ category_name }}">
+      <h2 class="category-title">Settings</h2>
       <ul class="category-entry">
       {% for post in site.categories[category_name] reversed %}
         <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>

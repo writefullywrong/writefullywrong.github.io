@@ -4,6 +4,9 @@ layout: default
 {% if page.series != n %}{{ page.series }}{% else %}{{ page.title }}{% endif %}
 {% if page.chapter != n %}<br>Chapter {{ page.chapter}}: {{ page.chapter_title }}{% endif %}
 {% if page.prompt != n %}<br>r/writngprompts prompt: <a href="{{ page.wp_url }}" target="_blank">{{ page.prompt }}</a>{% endif %}
+{% if page.prompt != n %}<br>wordcount: {{page.word_count}}{% endif %}
+<br>
+{% if page.setting != n %}<br><strong>Authors Note:</strong> This piece is part of a shared setting: <a href="/setting/{{ page.setting_url }}">{{ page.setting }}</a>{% endif %}
 <br>
 <br>
 {{ content }}

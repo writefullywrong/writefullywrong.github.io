@@ -40,7 +40,7 @@ header_pages:
  - thoughts.md
  - writings.md
 
-footer: '<a href="https://kiwiirc.com/nextclient/irc.snoonet.org/writerchat" target="_blank">irc</a> - <a href="https://www.reddit.com/user/writefullywrong"target="_blank">reddit</a> - <a href="https://twitter.com/writefullywrong" target="_blank">twitter</a><br />Copyright &copy; <script>document.write(new Date().getFullYear())</script> writefullywrong.com'
+footer: '<a href="https://www.reddit.com/r/WritingPrompts/wiki/chat" target="_blank">discord</a> - <a href="https://www.reddit.com/user/writefullywrong"target="_blank">reddit</a> - <a href="https://twitter.com/writefullywrong" target="_blank">twitter</a><br />Copyright &copy; <script>document.write(new Date().getFullYear())</script> writefullywrong.com'
 
 # Build settings
 theme: jekyll-theme-console
